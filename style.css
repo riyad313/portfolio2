@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 10%;
+    padding-top: 2%;
+}
+
+.nav-title {
+
+    font-size: 45px;
+    color: #000;
+
+
+}
+
+ul li {
+
+    list-style: none;
+    font-size: 25px;
+    color: #474747;
+    padding: 0px 25px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav button {
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 18px 36px;
+}
+
+
+
+.text-primary {
+
+    color: #FD6E0A;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png') , url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+   
+}
+
+/* banner css */
+
+.banner{
+    display: flex;
+   
+    align-items: center;
+    width: 1200px;
+    margin:auto;
+}
+.banner-h {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 700;
+    line-height: 61px;
+}
+.banner-t {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 115px;
+}
+.banner-st {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 18px 36px;
+    margin-top: 20px;
+}
+
+
+
+
+/* about */
+main
+{
+    width: 1200px;
+    margin: auto;
+}
+.about {
+   
+    text-align: center;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 95px 260px;
+    margin-top: 150px;
+}
+.ab-h {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+.ab-p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 1.6rem;
+    margin-bottom: 40px;;
+}
+.aboutcontainer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ait {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.aip {
+    font-size: 20px;
+    font-weight: 700;
+}
+.whatcani{
+    margin-top: 50px;
+  
+}
+.whatcontainer{
+    display: flex;
+    gap: 24px;
+ 
+}
+.w-h{
+  
+        font-size: 37px;
+        text-align: center;
+        margin-bottom: 25px;
+  
+}
+.w-p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #757575;
+    padding: 0px 100px;
+    margin-bottom: 35px;
+}
+.wahtinfo{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 70px;
+}
+.wt {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.wp {
+    font-size: 17px;
+    color: #757575;
+    line-height: 1.6rem;
+}
+.resume{
+margin-bottom: 100px;;
+}
+.resumemain{
+ display: flex;
+ margin-top: 90px;
+}
+
+.resumeA{
+
+}
+.A-h{
+    font-size: 30px;
+    color: #474747;
+}
+.rt{
+
+font-size: 25px;
+
+font-weight: 700;
+
+margin: 15px 0px;
+
+color: #474747;
+}
+.rtt{
+
+color: #757575;
+
+font-size: 20px;
+
+font-weight: 600;
+
+margin-bottom: 15px;
+}
+.rst {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+}
+.resumeAsec {
+    padding-right: 100px;
+    padding-bottom: 10px;
+  
+    margin-right: 50px;
+}
+.resumeBsec {
+    padding-right: 10px;
+   
+    padding-bottom: 10px;
+}
+.btn-primary-resume{
+
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 18px 36px;
+    margin-top: 20px;
+    
+}
+.btnresume{
+    text-align: center;
+
+}
+
+/* footer */
+
+
+footer{
+
+  padding: 5% 2%;
+  background-color: #FFF8F3;
+
+}
+
+.footermain{
+
+ width: 1200px;
+ margin: auto;
+ display: flex;
+}
+
+
+.fr{
+  width: 50%;;
+}
+
+    .fr p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6rem;
+        margin: 27px 0px;
+        color: #474747;
+    }
+    .fr img {
+        margin-right: 20px;
+        
+      
+    }
+.fl{
+    width: 50%;;
+
+}
+.contactform{
+    margin-top: 30px;;
+}
+.contactform input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    width: 90%;
+    padding: 18px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #757575;
+
+}
